@@ -1,16 +1,6 @@
 {
-   "tooltip" : {
-      "followPointer" : "true",
-      "headerFormat" : "<span style=\"font-size:11px\"></span>",
-      "pointFormat" : "<span style=\"color:{point.color}\">{point.name}</span>: <b>{point.y:f}</b><br/>"
-   },
-   "legend" : {
-      "enabled" : "false"
-   },
-   "yAxis" : {
-      "title" : {
-         "text" : "Total Solutions"
-      }
+   "chart" : {
+      "type" : "column"
    },
    "drilldown" : {
       "series" : [
@@ -77,8 +67,6 @@
             "name" : "Abigail"
          },
          {
-            "id" : "Adam Russell",
-            "name" : "Adam Russell",
             "data" : [
                [
                   "C++",
@@ -88,11 +76,11 @@
                   "Prolog",
                   2
                ]
-            ]
+            ],
+            "id" : "Adam Russell",
+            "name" : "Adam Russell"
          },
          {
-            "id" : "Cheok-Yin Fung",
-            "name" : "Cheok-Yin Fung",
             "data" : [
                [
                   "Befunge-93",
@@ -102,7 +90,9 @@
                   "JavaScript",
                   1
                ]
-            ]
+            ],
+            "id" : "Cheok-Yin Fung",
+            "name" : "Cheok-Yin Fung"
          },
          {
             "data" : [
@@ -111,18 +101,28 @@
                   1
                ]
             ],
-            "name" : "Cristina Heredia",
-            "id" : "Cristina Heredia"
+            "id" : "Cristina Heredia",
+            "name" : "Cristina Heredia"
          },
          {
-            "name" : "Eric Cheung",
-            "id" : "Eric Cheung",
             "data" : [
                [
                   "Excel VBA",
                   2
                ]
-            ]
+            ],
+            "id" : "Eric Cheung",
+            "name" : "Eric Cheung"
+         },
+         {
+            "data" : [
+               [
+                  "Python",
+                  2
+               ]
+            ],
+            "id" : "Lubos Kolouch",
+            "name" : "Lubos Kolouch"
          },
          {
             "data" : [
@@ -135,14 +135,14 @@
             "name" : "Luca Ferrari"
          },
          {
-            "id" : "Mohammad Meraj Zia",
-            "name" : "Mohammad Meraj Zia",
             "data" : [
                [
                   "Java",
                   1
                ]
-            ]
+            ],
+            "id" : "Mohammad Meraj Zia",
+            "name" : "Mohammad Meraj Zia"
          },
          {
             "data" : [
@@ -171,12 +171,10 @@
                   2
                ]
             ],
-            "name" : "PokGoPun",
-            "id" : "PokGoPun"
+            "id" : "PokGoPun",
+            "name" : "PokGoPun"
          },
          {
-            "id" : "Roger Bell_West",
-            "name" : "Roger Bell_West",
             "data" : [
                [
                   "Postscript",
@@ -194,17 +192,19 @@
                   "Rust",
                   2
                ]
-            ]
+            ],
+            "id" : "Roger Bell_West",
+            "name" : "Roger Bell_West"
          },
          {
-            "name" : "Simon Green",
-            "id" : "Simon Green",
             "data" : [
                [
                   "Python",
                   2
                ]
-            ]
+            ],
+            "id" : "Simon Green",
+            "name" : "Simon Green"
          },
          {
             "data" : [
@@ -213,8 +213,8 @@
                   2
                ]
             ],
-            "name" : "Tyler Wardhaugh",
-            "id" : "Tyler Wardhaugh"
+            "id" : "Tyler Wardhaugh",
+            "name" : "Tyler Wardhaugh"
          },
          {
             "data" : [
@@ -227,108 +227,123 @@
                   1
                ]
             ],
-            "name" : "Ulrich Rieke",
-            "id" : "Ulrich Rieke"
+            "id" : "Ulrich Rieke",
+            "name" : "Ulrich Rieke"
          }
       ]
    },
-   "chart" : {
-      "type" : "column"
-   },
-   "title" : {
-      "text" : "The Weekly Challenge - 140"
+   "legend" : {
+      "enabled" : "false"
    },
    "plotOptions" : {
       "series" : {
+         "borderWidth" : 0,
          "dataLabels" : {
             "enabled" : 1,
             "format" : "{point.y}"
-         },
-         "borderWidth" : 0
+         }
       }
-   },
-   "xAxis" : {
-      "type" : "category"
    },
    "series" : [
       {
-         "name" : "The Weekly Challenge Guest Contributions",
          "colorByPoint" : "true",
          "data" : [
             {
                "drilldown" : "Abigail",
-               "y" : 28,
-               "name" : "Abigail"
+               "name" : "Abigail",
+               "y" : 28
             },
             {
+               "drilldown" : "Adam Russell",
                "name" : "Adam Russell",
-               "y" : 4,
-               "drilldown" : "Adam Russell"
+               "y" : 4
             },
             {
+               "drilldown" : "Cheok-Yin Fung",
                "name" : "Cheok-Yin Fung",
-               "y" : 2,
-               "drilldown" : "Cheok-Yin Fung"
+               "y" : 2
             },
             {
                "drilldown" : "Cristina Heredia",
-               "y" : 1,
-               "name" : "Cristina Heredia"
+               "name" : "Cristina Heredia",
+               "y" : 1
             },
             {
                "drilldown" : "Eric Cheung",
-               "y" : 2,
-               "name" : "Eric Cheung"
+               "name" : "Eric Cheung",
+               "y" : 2
             },
             {
-               "y" : 2,
+               "drilldown" : "Lubos Kolouch",
+               "name" : "Lubos Kolouch",
+               "y" : 2
+            },
+            {
+               "drilldown" : "Luca Ferrari",
                "name" : "Luca Ferrari",
-               "drilldown" : "Luca Ferrari"
+               "y" : 2
             },
             {
-               "y" : 1,
+               "drilldown" : "Mohammad Meraj Zia",
                "name" : "Mohammad Meraj Zia",
-               "drilldown" : "Mohammad Meraj Zia"
+               "y" : 1
             },
             {
+               "drilldown" : "Paulo Custodio",
                "name" : "Paulo Custodio",
-               "y" : 2,
-               "drilldown" : "Paulo Custodio"
+               "y" : 2
             },
             {
+               "drilldown" : "Pete Houston",
                "name" : "Pete Houston",
-               "y" : 1,
-               "drilldown" : "Pete Houston"
+               "y" : 1
             },
             {
+               "drilldown" : "PokGoPun",
                "name" : "PokGoPun",
-               "y" : 2,
-               "drilldown" : "PokGoPun"
+               "y" : 2
             },
             {
-               "y" : 8,
+               "drilldown" : "Roger Bell_West",
                "name" : "Roger Bell_West",
-               "drilldown" : "Roger Bell_West"
+               "y" : 8
             },
             {
+               "drilldown" : "Simon Green",
                "name" : "Simon Green",
-               "y" : 2,
-               "drilldown" : "Simon Green"
+               "y" : 2
             },
             {
-               "y" : 2,
+               "drilldown" : "Tyler Wardhaugh",
                "name" : "Tyler Wardhaugh",
-               "drilldown" : "Tyler Wardhaugh"
+               "y" : 2
             },
             {
-               "y" : 2,
+               "drilldown" : "Ulrich Rieke",
                "name" : "Ulrich Rieke",
-               "drilldown" : "Ulrich Rieke"
+               "y" : 2
             }
-         ]
+         ],
+         "name" : "The Weekly Challenge Guest Contributions"
       }
    ],
    "subtitle" : {
-      "text" : "[Guests: 14]. Click the columns to drilldown the contributions breakdown. Last updated at 2024-04-18 08:53:31 GMT"
+      "text" : "[Guests: 15]. Click the columns to drilldown the contributions breakdown. Last updated at 2026-01-18 15:10:58 GMT"
+   },
+   "title" : {
+      "text" : "The Weekly Challenge - 140"
+   },
+   "tooltip" : {
+      "followPointer" : "true",
+      "headerFormat" : "<span style=\"font-size:11px\"></span>",
+      "pointFormat" : "<span style=\"color:{point.color}\">{point.name}</span>: <b>{point.y:f}</b><br/>"
+   },
+   "xAxis" : {
+      "type" : "category"
+   },
+   "yAxis" : {
+      "title" : {
+         "text" : "Total Solutions"
+      }
    }
 }

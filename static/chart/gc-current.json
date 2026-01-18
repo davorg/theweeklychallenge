@@ -11,6 +11,16 @@
                   2
                ]
             ],
+            "id" : "Anthony Rowe",
+            "name" : "Anthony Rowe"
+         },
+         {
+            "data" : [
+               [
+                  "Python",
+                  2
+               ]
+            ],
             "id" : "Conor Hoekstra",
             "name" : "Conor Hoekstra"
          },
@@ -23,6 +33,16 @@
             ],
             "id" : "Eric Cheung",
             "name" : "Eric Cheung"
+         },
+         {
+            "data" : [
+               [
+                  "J",
+                  2
+               ]
+            ],
+            "id" : "Jorg Sommrey",
+            "name" : "Jorg Sommrey"
          },
          {
             "data" : [
@@ -161,6 +181,11 @@
          "colorByPoint" : "true",
          "data" : [
             {
+               "drilldown" : "Anthony Rowe",
+               "name" : "Anthony Rowe",
+               "y" : 2
+            },
+            {
                "drilldown" : "Conor Hoekstra",
                "name" : "Conor Hoekstra",
                "y" : 2
@@ -168,6 +193,11 @@
             {
                "drilldown" : "Eric Cheung",
                "name" : "Eric Cheung",
+               "y" : 2
+            },
+            {
+               "drilldown" : "Jorg Sommrey",
+               "name" : "Jorg Sommrey",
                "y" : 2
             },
             {
@@ -220,7 +250,7 @@
       }
    ],
    "subtitle" : {
-      "text" : "[Guests: 11]. Click the columns to drilldown the contributions breakdown. Last updated at 2026-01-15 19:47:15 GMT"
+      "text" : "[Guests: 13]. Click the columns to drilldown the contributions breakdown. Last updated at 2026-01-18 15:11:21 GMT"
    },
    "title" : {
       "text" : "The Weekly Challenge - 356"

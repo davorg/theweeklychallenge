@@ -1,16 +1,6 @@
 {
-   "tooltip" : {
-      "followPointer" : "true",
-      "headerFormat" : "<span style=\"font-size:11px\"></span>",
-      "pointFormat" : "<span style=\"color:{point.color}\">{point.name}</span>: <b>{point.y:f}</b><br/>"
-   },
-   "legend" : {
-      "enabled" : "false"
-   },
-   "yAxis" : {
-      "title" : {
-         "text" : "Total Solutions"
-      }
+   "chart" : {
+      "type" : "column"
    },
    "drilldown" : {
       "series" : [
@@ -73,38 +63,48 @@
                   2
                ]
             ],
-            "name" : "Abigail",
-            "id" : "Abigail"
+            "id" : "Abigail",
+            "name" : "Abigail"
          },
          {
-            "name" : "Adam Russell",
-            "id" : "Adam Russell",
             "data" : [
                [
                   "C++",
                   2
                ]
-            ]
+            ],
+            "id" : "Adam Russell",
+            "name" : "Adam Russell"
          },
          {
-            "id" : "Conor Hoekstra",
-            "name" : "Conor Hoekstra",
             "data" : [
                [
                   "APL",
                   1
                ]
-            ]
+            ],
+            "id" : "Conor Hoekstra",
+            "name" : "Conor Hoekstra"
          },
          {
-            "name" : "Eric Cheung",
-            "id" : "Eric Cheung",
             "data" : [
                [
                   "Excel VBA",
                   2
                ]
-            ]
+            ],
+            "id" : "Eric Cheung",
+            "name" : "Eric Cheung"
+         },
+         {
+            "data" : [
+               [
+                  "Python",
+                  2
+               ]
+            ],
+            "id" : "Lubos Kolouch",
+            "name" : "Lubos Kolouch"
          },
          {
             "data" : [
@@ -123,8 +123,8 @@
                   2
                ]
             ],
-            "name" : "Mohammad Sajid Anwar",
-            "id" : "Mohammad Sajid Anwar"
+            "id" : "Mohammad Sajid Anwar",
+            "name" : "Mohammad Sajid Anwar"
          },
          {
             "data" : [
@@ -165,18 +165,18 @@
                   2
                ]
             ],
-            "name" : "Roger Bell_West",
-            "id" : "Roger Bell_West"
+            "id" : "Roger Bell_West",
+            "name" : "Roger Bell_West"
          },
          {
-            "name" : "Simon Green",
-            "id" : "Simon Green",
             "data" : [
                [
                   "Python",
                   2
                ]
-            ]
+            ],
+            "id" : "Simon Green",
+            "name" : "Simon Green"
          },
          {
             "data" : [
@@ -194,27 +194,20 @@
          }
       ]
    },
-   "chart" : {
-      "type" : "column"
-   },
-   "title" : {
-      "text" : "The Weekly Challenge - 141"
+   "legend" : {
+      "enabled" : "false"
    },
    "plotOptions" : {
       "series" : {
+         "borderWidth" : 0,
          "dataLabels" : {
             "enabled" : 1,
             "format" : "{point.y}"
-         },
-         "borderWidth" : 0
+         }
       }
-   },
-   "xAxis" : {
-      "type" : "category"
    },
    "series" : [
       {
-         "name" : "The Weekly Challenge Guest Contributions",
          "colorByPoint" : "true",
          "data" : [
             {
@@ -223,59 +216,81 @@
                "y" : 27
             },
             {
-               "y" : 2,
+               "drilldown" : "Adam Russell",
                "name" : "Adam Russell",
-               "drilldown" : "Adam Russell"
+               "y" : 2
             },
             {
-               "y" : 1,
+               "drilldown" : "Conor Hoekstra",
                "name" : "Conor Hoekstra",
-               "drilldown" : "Conor Hoekstra"
+               "y" : 1
             },
             {
                "drilldown" : "Eric Cheung",
-               "y" : 2,
-               "name" : "Eric Cheung"
+               "name" : "Eric Cheung",
+               "y" : 2
+            },
+            {
+               "drilldown" : "Lubos Kolouch",
+               "name" : "Lubos Kolouch",
+               "y" : 2
             },
             {
                "drilldown" : "Luca Ferrari",
-               "y" : 2,
-               "name" : "Luca Ferrari"
+               "name" : "Luca Ferrari",
+               "y" : 2
             },
             {
                "drilldown" : "Mohammad Sajid Anwar",
-               "y" : 2,
-               "name" : "Mohammad Sajid Anwar"
+               "name" : "Mohammad Sajid Anwar",
+               "y" : 2
             },
             {
-               "y" : 2,
+               "drilldown" : "Paulo Custodio",
                "name" : "Paulo Custodio",
-               "drilldown" : "Paulo Custodio"
+               "y" : 2
             },
             {
                "drilldown" : "PokGoPun",
-               "y" : 2,
-               "name" : "PokGoPun"
+               "name" : "PokGoPun",
+               "y" : 2
             },
             {
+               "drilldown" : "Roger Bell_West",
                "name" : "Roger Bell_West",
-               "y" : 8,
-               "drilldown" : "Roger Bell_West"
+               "y" : 8
             },
             {
-               "y" : 2,
+               "drilldown" : "Simon Green",
                "name" : "Simon Green",
-               "drilldown" : "Simon Green"
+               "y" : 2
             },
             {
                "drilldown" : "Ulrich Rieke",
                "name" : "Ulrich Rieke",
                "y" : 3
             }
-         ]
+         ],
+         "name" : "The Weekly Challenge Guest Contributions"
       }
    ],
    "subtitle" : {
-      "text" : "[Guests: 11]. Click the columns to drilldown the contributions breakdown. Last updated at 2024-04-18 08:53:31 GMT"
+      "text" : "[Guests: 12]. Click the columns to drilldown the contributions breakdown. Last updated at 2026-01-18 15:10:58 GMT"
+   },
+   "title" : {
+      "text" : "The Weekly Challenge - 141"
+   },
+   "tooltip" : {
+      "followPointer" : "true",
+      "headerFormat" : "<span style=\"font-size:11px\"></span>",
+      "pointFormat" : "<span style=\"color:{point.color}\">{point.name}</span>: <b>{point.y:f}</b><br/>"
+   },
+   "xAxis" : {
+      "type" : "category"
+   },
+   "yAxis" : {
+      "title" : {
+         "text" : "Total Solutions"
+      }
    }
 }

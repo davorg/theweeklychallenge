@@ -32,7 +32,7 @@
                ],
                [
                   "J",
-                  2
+                  4
                ],
                [
                   "Java",
@@ -64,7 +64,7 @@
                ],
                [
                   "Python",
-                  38
+                  40
                ],
                [
                   "Ruby",
@@ -1194,7 +1194,7 @@
                ],
                [
                   "Python",
-                  503
+                  507
                ],
                [
                   "R",
@@ -1645,7 +1645,7 @@
             {
                "drilldown" : "2026",
                "name" : "2026",
-               "y" : 104
+               "y" : 108
             },
             {
                "drilldown" : "2025",
@@ -1670,7 +1670,7 @@
             {
                "drilldown" : "2021",
                "name" : "2021",
-               "y" : 2840
+               "y" : 2844
             },
             {
                "drilldown" : "2020",
@@ -1687,7 +1687,7 @@
       }
    ],
    "subtitle" : {
-      "text" : "Click the columns to drilldown the language breakdown. Last updated at 2026-01-15 19:47:15 GMT"
+      "text" : "Click the columns to drilldown the language breakdown. Last updated at 2026-01-18 15:11:21 GMT"
    },
    "title" : {
       "text" : "Guest Language Breakdown"

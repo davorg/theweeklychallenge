@@ -484,7 +484,7 @@
                ],
                [
                   "Python",
-                  10
+                  12
                ],
                [
                   "R",
@@ -586,7 +586,7 @@
                ],
                [
                   "Python",
-                  9
+                  11
                ],
                [
                   "R",
@@ -5053,12 +5053,12 @@
             {
                "drilldown" : "141",
                "name" : "141",
-               "y" : 53
+               "y" : 55
             },
             {
                "drilldown" : "140",
                "name" : "140",
-               "y" : 59
+               "y" : 61
             },
             {
                "drilldown" : "139",
@@ -5295,7 +5295,7 @@
       }
    ],
    "subtitle" : {
-      "text" : "Click the columns to drilldown the language breakdown. Last updated at 2026-01-15 19:47:15 GMT"
+      "text" : "Click the columns to drilldown the language breakdown. Last updated at 2026-01-18 15:11:21 GMT"
    },
    "title" : {
       "text" : "Guest Language Breakdown"

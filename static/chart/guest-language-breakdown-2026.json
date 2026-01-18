@@ -27,6 +27,10 @@
                   2
                ],
                [
+                  "J",
+                  2
+               ],
+               [
                   "Lua",
                   2
                ],
@@ -36,7 +40,7 @@
                ],
                [
                   "Python",
-                  15
+                  17
                ],
                [
                   "Rust",
@@ -161,7 +165,7 @@
             {
                "drilldown" : "356",
                "name" : "356",
-               "y" : 35
+               "y" : 39
             },
             {
                "drilldown" : "355",
@@ -173,7 +177,7 @@
       }
    ],
    "subtitle" : {
-      "text" : "Click the columns to drilldown the language breakdown. Last updated at 2026-01-15 19:47:15 GMT"
+      "text" : "Click the columns to drilldown the language breakdown. Last updated at 2026-01-18 15:11:21 GMT"
    },
    "title" : {
       "text" : "Guest Language Breakdown"
