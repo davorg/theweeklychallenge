@@ -1,6 +1,11 @@
 ---
 enable: true
 members:
+- week: '357'
+  date: January 19, 2026
+  tasks:
+    - Kaprekar Constant
+    - Unique Fraction Generator
 - week: '356'
   date: January 12, 2026
   tasks:

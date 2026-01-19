@@ -1,5 +1,8 @@
 enable  : true
 members  :
+  - name: "RECAP : WEEK #356"
+    url: /blog/recap-challenge-356
+    image: /images/blog/recap-challenge-356-mini.jpg
   - name: "RECAP : WEEK #355"
     url: /blog/recap-challenge-355
     image: /images/blog/recap-challenge-355-mini.jpg
